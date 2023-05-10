@@ -1,0 +1,10 @@
+command of create controller :php artisan make:controller demo1
+
+route::get('/demo',[demo::class])
+
+
+php artisan cache:clear
+
+php artisan config:clear
+
+php artisan optimize
